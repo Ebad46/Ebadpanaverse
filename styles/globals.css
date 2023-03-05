@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.click{
+    @apply text-blue-600 hover:text-blue-400 active:animate-ping;
+}
+.coursebox{
+    @apply  h-fit lg:h-[31rem]  w-[35rem]  text-lg pl-3 text-gray-900 shadow-2xl shadow-gray-700 bg-purple-200 mt-4 ;
+}
+.linking{
+    @apply text-blue-700  hover:text-blue-400 hover:underline w-fit active:animate-ping;
+}
+@tailwind utilities;
